@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Practice",
+    "description": "Just for Practicing chrome API's",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup":"popup.html",
+        "default_icon": {
+            "16" : "assets/icon16.png",
+            "32" : "assets/icon32.png",
+            "48" : "assets/icon48.png",
+            "128": "assets/icon128.png"
+        },
+        "default_title": "Notes Easily while surfing"
+    },
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["js/popup.js"]
+     }
+}

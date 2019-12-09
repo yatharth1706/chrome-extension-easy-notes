@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <style>
+                #Notes{
+                    min-width: 200px;
+                    min-height: 140px;
+                    max-width: 450px;
+                    max-height: 450px;
+                    outline: 0px !important;
+                    caret-color: #f90;
+                }
+
+                textarea{
+                    resize: auto;
+                    width: 100%;
+                    border: none;
+                }
+
+                .colors{
+                    border-radius: 50%;
+                    width: 25px;
+                    height: 25px;
+                }
+            </style>
+    </head>
+    <body>
+
+        <div>
+                <h4 style="text-align: center; margin: 4px 8px">Easy Notes <img src="assets/icon32.png" alt="Pencil"></h2>
+                <hr>
+                <textarea name="Notes" id="Notes" autofocus style="width: 306px;height: 140px; margin: 0px;"></textarea>
+        </div>
+        
+        <div class="container-fluid pd-5 text-center" style="margin-bottom: 10px;">
+            <button id="btn1" class="btn btn-sm colors" style="background-color: #74b9ff" value="#74b9ff"></button>
+            <button id="btn2" class="btn btn-sm colors" style="background-color: #55efc4" value="#55efc4"></button>
+            <button id="btn3" class="btn btn-sm colors" style="background-color: #ff7675" value="#ff7675"></button>
+            <button id="btn4" class="btn btn-sm colors" style="background-color: #fdcb6e" value="#fdcb6e"></button>
+            <button id="btn5" class="btn btn-sm colors" style="background-color: #ff7f50" value="#ff7f50"></button>
+            <button id="btn6" class="btn btn-sm colors" style="background-color: #ffffff" value="#ffffff"></button>
+        </div>
+        <div class="container-fluid pd-5">
+            <hr>
+        </div>
+        <script src="js/popup.js"></script>
+    </body>
+</html>
