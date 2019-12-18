@@ -13,7 +13,7 @@
         },
         "default_title": "Notes Easily while surfing"
     },
-    "permissions": ["storage","fontSettings"],
+    "permissions": ["storage","fontSettings","clipboardRead","clipboardWrite"],
     "background": {
         "scripts": ["js/popup.js"]
      }
